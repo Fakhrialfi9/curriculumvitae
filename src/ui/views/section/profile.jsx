@@ -15,7 +15,9 @@ const Profile = () => {
               <h5>{profileData.name}</h5>
               <h6>{profileData.title}</h6>
               <code>
-                <a href={profileData.to}>{profileData.website}</a>
+                <a href={profileData.to} target='_blank' rel='noopener noreferrer'>
+                  {profileData.website}
+                </a>
               </code>
             </div>
           </div>
