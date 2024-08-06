@@ -1,0 +1,212 @@
+.layout {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  min-width: 100vw;
+  max-width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  max-height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: 3.5rem;
+  min-width: 3.5rem;
+  max-width: 3.5rem;
+  height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.dock {
+  display: none;
+}
+
+.main {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-width: 100vw;
+  max-width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  margin-left: auto;
+  padding: 0;
+  margin-left: auto;
+}
+
+.pages {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  margin-top: auto;
+  padding-block: 5rem;
+  padding-inline: 5rem;
+}
+
+.footer {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  min-width: 100vw;
+  max-width: 100vw;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  margin-top: auto;
+  padding: 0;
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 375px  ===================== */
+/* ================================================================================================== */
+
+@media (max-width: 375px) {
+  .layout {
+    flex-direction: column !important;
+  }
+
+  .header {
+    display: none !important;
+  }
+
+  .dock {
+    display: flex;
+  }
+
+  .pages {
+    padding-block: 3.5rem !important;
+    padding-inline: 0 !important;
+  }
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 575px  ===================== */
+/* ================================================================================================== */
+
+@media (min-width: 376px) and (max-width: 575px) {
+  .layout {
+    flex-direction: column !important;
+  }
+
+  .header {
+    display: none !important;
+  }
+
+  .dock {
+    display: flex;
+  }
+
+  .pages {
+    padding-block: 3.5rem !important;
+    padding-inline: 0 !important;
+  }
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 619px  ===================== */
+/* ================================================================================================== */
+
+@media (min-width: 576px) and (max-width: 619px) {
+  .layout {
+    flex-direction: column !important;
+  }
+
+  .header {
+    display: none !important;
+  }
+
+  .dock {
+    display: flex;
+  }
+
+  .pages {
+    padding-block: 3.5rem !important;
+    padding-inline: 0 !important;
+  }
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 768px  ===================== */
+/* ================================================================================================== */
+
+@media (min-width: 620px) and (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .header {
+    display: none !important;
+  }
+
+  .dock {
+    display: flex;
+  }
+
+  .pages {
+    padding-block: 3.5rem !important;
+    padding-inline: 0 !important;
+  }
+}
+
+/* ================================================================================================== */
+/* ===================  T H I S  R E S P O N S I V E  M A X - W I D T H 991px  ====================== */
+/* ================================================================================================== */
+
+@media (min-width: 769px) and (max-width: 991px) {
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 1200px  ==================== */
+/* ================================================================================================== */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* ================================================================================================== */
+/* ====================   T H I S  R E S P O N S I V E  M A X - W I D T H 1400px  =================== */
+/* ================================================================================================== */
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 1600px  ==================== */
+/* ================================================================================================== */
+
+@media (min-width: 1401px) and (max-width: 1600px) {
+}

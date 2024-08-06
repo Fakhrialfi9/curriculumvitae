@@ -1,0 +1,320 @@
+.educationcontent {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 2rem;
+}
+
+.header {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 0.5rem;
+}
+
+.header > h5 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 5rem;
+}
+
+.information {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 2rem;
+}
+
+.years {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: 15%;
+  min-width: 15%;
+  max-width: 15%;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.years > h5 {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.heading {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  min-width: 85%;
+  max-width: 85%;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 1rem;
+}
+
+.name {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 0.5rem;
+}
+
+.name > h5 {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.name > h6 {
+  font-size: 0.85rem;
+  font-weight: 300;
+}
+
+.description {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.description > p {
+  font-size: 0.85rem;
+  font-weight: 400;
+  white-space: pre-line;
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 375px  ===================== */
+/* ================================================================================================== */
+
+@media (max-width: 375px) {
+  .projectcontent {
+    gap: 1.5rem;
+  }
+
+  .body {
+    padding-left: 1.25rem;
+  }
+
+  .information {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .heading,
+  .years {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .header > h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 575px  ===================== */
+/* ================================================================================================== */
+
+@media (min-width: 376px) and (max-width: 575px) {
+  .projectcontent {
+    gap: 1.5rem;
+  }
+
+  .body {
+    padding-left: 1.25rem;
+  }
+
+  .information {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .heading,
+  .years {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .header > h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 619px  ===================== */
+/* ================================================================================================== */
+
+@media (min-width: 576px) and (max-width: 619px) {
+  .projectcontent {
+    gap: 1.5rem;
+  }
+
+  .body {
+    padding-left: 1.25rem;
+  }
+
+  .information {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .heading,
+  .years {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .header > h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 768px  ===================== */
+/* ================================================================================================== */
+
+@media (min-width: 620px) and (max-width: 768px) {
+  .projectcontent {
+    gap: 1.5rem;
+  }
+
+  .body {
+    padding-left: 1.25rem;
+  }
+
+  .information {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .heading,
+  .years {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .header > h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+
+/* ================================================================================================== */
+/* ===================  T H I S  R E S P O N S I V E  M A X - W I D T H 991px  ====================== */
+/* ================================================================================================== */
+
+@media (min-width: 769px) and (max-width: 991px) {
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 1200px  ==================== */
+/* ================================================================================================== */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* ================================================================================================== */
+/* ====================   T H I S  R E S P O N S I V E  M A X - W I D T H 1400px  =================== */
+/* ================================================================================================== */
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 1600px  ==================== */
+/* ================================================================================================== */
+
+@media (min-width: 1401px) and (max-width: 1600px) {
+}

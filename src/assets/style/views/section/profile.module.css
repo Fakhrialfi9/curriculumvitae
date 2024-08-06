@@ -1,0 +1,205 @@
+.profilecontent {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 3rem;
+}
+
+.header {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 1.25rem;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: row;
+  width: 6.5rem;
+  min-width: 6.5rem;
+  max-width: 6.5rem;
+  height: 6.5rem;
+  min-height: 6.5rem;
+  max-height: 6.5rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: var(--text-color-solid-0);
+}
+
+.avatar > img {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  min-width: auto;
+  max-width: auto;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 0.5rem;
+}
+
+.information > h5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.information > h6 {
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
+.information > code {
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0.4rem 0.75rem;
+}
+
+.body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 0.5rem;
+}
+
+.body > h5 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.body > p {
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 375px  ===================== */
+/* ================================================================================================== */
+
+@media (max-width: 375px) {
+  .projectcontent {
+    gap: 1.5rem;
+  }
+
+  .information {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .heading,
+  .years {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .header > h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 575px  ===================== */
+/* ================================================================================================== */
+
+@media (min-width: 376px) and (max-width: 575px) {
+  .projectcontent {
+    gap: 1.5rem;
+  }
+
+  .information {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .heading,
+  .years {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .header > h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 619px  ===================== */
+/* ================================================================================================== */
+
+@media (min-width: 576px) and (max-width: 619px) {
+  .projectcontent {
+    gap: 1.5rem;
+  }
+
+  .information {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .heading,
+  .years {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .header > h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
