@@ -1,5 +1,5 @@
 const profileData = {
-  avatar: "../../../public/assets/avatar/1550173587882.jpg",
+  avatar: "/assets/avatar/1550173587882.jpg",
   name: "Muhammad Fakhri Alfi Syahrin H.",
   title: "Frontend Developer in Indonesian, he/him",
   website: "creativeportofolio.vercel.app",

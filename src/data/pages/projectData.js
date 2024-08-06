@@ -8,7 +8,7 @@ const projectData = [
       Dalam proses pembuatan website, saya berfokus pada menciptakan platform yang menarik dan efektif bagi calon pembeli. Pertama-tama, saya
       merancang tata letak yang user-friendly dan mudah dinavigasi, sehingga calon pembeli dapat dengan mudah menemukan informasi
       penting tentang proyek, seperti tipe unit, harga, lokasi, dan fasilitas yang ditawarkan.`,
-    image: "../../../public/assets/project/1690432359094.jpeg",
+    image: "/assets/project/1690432359094.jpeg",
     index: 0,
   },
   {
@@ -20,7 +20,7 @@ const projectData = [
       Dalam proses pembuatan website, saya berfokus pada menciptakan platform yang menarik dan efektif bagi calon pembeli. Pertama-tama, saya
       merancang tata letak yang user-friendly dan mudah dinavigasi, sehingga calon pembeli dapat dengan mudah menemukan informasi
       penting tentang proyek, seperti tipe unit, harga, lokasi, dan fasilitas yang ditawarkan.`,
-    image: "../../../public/assets/project/1690432359094.jpeg",
+    image: "/assets/project/1690432359094.jpeg",
     index: 1,
   },
   {
@@ -32,7 +32,7 @@ const projectData = [
       Dalam proses pembuatan website, saya berfokus pada menciptakan platform yang menarik dan efektif bagi calon pembeli. Pertama-tama, saya
       merancang tata letak yang user-friendly dan mudah dinavigasi, sehingga calon pembeli dapat dengan mudah menemukan informasi
       penting tentang proyek, seperti tipe unit, harga, lokasi, dan fasilitas yang ditawarkan.`,
-    image: "../../../public/assets/project/1690432359094.jpeg",
+    image: "/assets/project/1690432359094.jpeg",
     index: 2,
   },
   {
@@ -44,7 +44,7 @@ const projectData = [
       Dalam proses pembuatan website, saya berfokus pada menciptakan platform yang menarik dan efektif bagi calon pembeli. Pertama-tama, saya
       merancang tata letak yang user-friendly dan mudah dinavigasi, sehingga calon pembeli dapat dengan mudah menemukan informasi
       penting tentang proyek, seperti tipe unit, harga, lokasi, dan fasilitas yang ditawarkan.`,
-    image: "../../../public/assets/project/1690432359094.jpeg",
+    image: "/assets/project/1690432359094.jpeg",
     index: 3,
   },
   {
@@ -56,7 +56,7 @@ const projectData = [
       Dalam proses pembuatan website, saya berfokus pada menciptakan platform yang menarik dan efektif bagi calon pembeli. Pertama-tama, saya
       merancang tata letak yang user-friendly dan mudah dinavigasi, sehingga calon pembeli dapat dengan mudah menemukan informasi
       penting tentang proyek, seperti tipe unit, harga, lokasi, dan fasilitas yang ditawarkan.`,
-    image: "../../../public/assets/project/1690432359094.jpeg",
+    image: "/assets/project/1690432359094.jpeg",
     index: 4,
   },
   {
@@ -68,7 +68,7 @@ const projectData = [
       Dalam proses pembuatan website, saya berfokus pada menciptakan platform yang menarik dan efektif bagi calon pembeli. Pertama-tama, saya
       merancang tata letak yang user-friendly dan mudah dinavigasi, sehingga calon pembeli dapat dengan mudah menemukan informasi
       penting tentang proyek, seperti tipe unit, harga, lokasi, dan fasilitas yang ditawarkan.`,
-    image: "../../../public/assets/project/1690432359094.jpeg",
+    image: "/assets/project/1690432359094.jpeg",
     index: 5,
   },
   {
@@ -80,7 +80,7 @@ const projectData = [
       Dalam proses pembuatan website, saya berfokus pada menciptakan platform yang menarik dan efektif bagi calon pembeli. Pertama-tama, saya
       merancang tata letak yang user-friendly dan mudah dinavigasi, sehingga calon pembeli dapat dengan mudah menemukan informasi
       penting tentang proyek, seperti tipe unit, harga, lokasi, dan fasilitas yang ditawarkan.`,
-    image: "../../../public/assets/project/1690432359094.jpeg",
+    image: "/assets/project/1690432359094.jpeg",
     index: 6,
   },
 ];
