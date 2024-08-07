@@ -154,6 +154,10 @@
   gap: 0.5rem;
 }
 
+.name > a:hover {
+  text-decoration: underline;
+}
+
 .description {
   box-sizing: border-box;
   display: flex;

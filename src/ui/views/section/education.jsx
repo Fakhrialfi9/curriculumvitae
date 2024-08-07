@@ -20,6 +20,7 @@ const Education = () => {
                 <div className={educationStyle.heading}>
                   <div className={educationStyle.name}>
                     <h5>{education.name}</h5>
+                    <h5>{education.grade}</h5>
                     <h6>{education.location}</h6>
                   </div>
                   <div className={educationStyle.description}>

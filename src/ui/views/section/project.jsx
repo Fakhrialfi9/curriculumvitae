@@ -24,9 +24,11 @@ const Project = () => {
                   <div className={projectStyle.description}>
                     <p dangerouslySetInnerHTML={{ __html: project.description }} />
                   </div>
-                  <figure className={projectStyle.image}>
-                    <img src={project.image} alt={project.name}></img>
-                  </figure>
+                  {project.image && project.image !== "/" && (
+                    <figure className={projectStyle.image}>
+                      <img src={project.image} alt={project.name} />
+                    </figure>
+                  )}
                 </div>
               </div>
             ))}

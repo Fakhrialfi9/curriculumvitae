@@ -1,3 +1,4 @@
+import { SquareArrowOutUpRight } from "lucide-react";
 import pagesStyle from "../../../assets/style/views/pages.module.css";
 import certificationsData from "../../../data/pages/certificationsData.js";
 import certificationsStyle from "../../../assets/style/views/section/certifications.module.css";
@@ -19,7 +20,9 @@ const Certifications = () => {
                 </div>
                 <div className={certificationsStyle.heading}>
                   <div className={certificationsStyle.name}>
-                    <h5>{certifications.name}</h5>
+                    <a href={certifications.to}>
+                      {certifications.name} <SquareArrowOutUpRight size={10} />
+                    </a>
                     <h6>{certifications.CertificateID}</h6>
                   </div>
                   <div className={certificationsStyle.description}>

@@ -20,6 +20,7 @@ const Experience = () => {
                 <div className={experienceStyle.heading}>
                   <div className={experienceStyle.name}>
                     <h5>{experience.name}</h5>
+                    <h5>{experience.title}</h5>
                     <h6>{experience.location}</h6>
                   </div>
                   <div className={experienceStyle.description}>

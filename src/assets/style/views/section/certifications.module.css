@@ -134,9 +134,28 @@
   gap: 0.5rem;
 }
 
-.name > h5 {
+.name > a {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  min-width: auto;
+  max-width: auto;
+  height: auto;
+  min-height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
   font-size: 0.85rem;
   font-weight: 500;
+  gap: 0.5rem;
+}
+
+.name > a:hover {
+  text-decoration: underline;
 }
 
 .name > h6 {
