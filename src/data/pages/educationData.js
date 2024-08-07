@@ -10,7 +10,7 @@ const educationData = [
     index: 0,
   },
   {
-    year: "2023 - 2024",
+    year: "2013 - 2015",
     location: "Bekasi, Jawa Barat",
     grade: "High School Diploma",
     name: "SMA Negeri 14 Bekasi",
@@ -20,7 +20,7 @@ const educationData = [
     index: 1,
   },
   {
-    year: "2023 - 2024",
+    year: "20010 - 2013",
     location: "Bekasi, Jawa Barat",
     grade: "Middle School Diploma",
     name: "SMP Islam Terpadu Widya Duta",
@@ -30,7 +30,7 @@ const educationData = [
     index: 2,
   },
   {
-    year: "2023 - 2024",
+    year: "2004 - 2009",
     location: "Jakarta Timur, DKI Jakarta",
     grade: "Junior School Diploma",
     name: "SD Negeri 03 Jati Pulo Asem",
