@@ -20,7 +20,7 @@ const educationData = [
     index: 1,
   },
   {
-    year: "20010 - 2013",
+    year: "2010 - 2013",
     location: "Bekasi, Jawa Barat",
     grade: "Middle School Diploma",
     name: "SMP Islam Terpadu Widya Duta",
