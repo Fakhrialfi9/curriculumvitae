@@ -21,7 +21,7 @@ const Contact = () => {
 
                 <div className={contactStyle.heading}>
                   <div className={contactStyle.name}>
-                    <a href={contact.to}>
+                    <a href={contact.to} target='_blank' rel='noopener noreferrer'>
                       {contact.name} <SquareArrowOutUpRight size={13} />
                     </a>
                   </div>
