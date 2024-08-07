@@ -6,7 +6,7 @@ const certificationsData = [
     to: "https://drive.google.com/uc?export=download&id=1tlkNRcMm06B04wDRIfYlUwAXRl7PebIX",
     name: "Certificate Course on Graphic Design with Adobe CC Express",
     description: `Melalui kursus ini, saya mendalami berbagai teknik desain grafis menggunakan Adobe Creative Cloud Express. Kursus ini memberikan pemahaman mendalam tentang prinsip desain visual, alat-alat grafis, dan teknik untuk menciptakan materi pemasaran yang menarik. Saya belajar bagaimana mengoptimalkan workflow desain untuk menghasilkan karya yang efisien dan berkualitas tinggi, yang kemudian diterapkan dalam proyek desain saya.`,
-    image: "../../../public/assets/certificate/UC-1a5f2f11-bce7-4a2d-9f65-e86835c7b785_page-0001.jpg",
+    image: "/assets/certificate/UC-1a5f2f11-bce7-4a2d-9f65-e86835c7b785_page-0001.jpg",
     index: 0,
   },
   {
@@ -16,7 +16,7 @@ const certificationsData = [
     to: "https://drive.google.com/uc?export=download&id=1KQR0Oq0kIcQUflAH1Erp2dzmfGEeVCWo",
     name: "FUNDAMENTAL FRONT-END WEB DEVELOPMENT I",
     description: `Kursus ini memperkenalkan saya pada dasar-dasar pengembangan frontend web, termasuk HTML, CSS, dan JavaScript. Saya belajar membangun struktur halaman web yang semantik, membuat desain yang responsif, dan menerapkan interaktivitas dasar. Pengetahuan ini memberikan saya fondasi yang kuat untuk mengembangkan aplikasi web yang user-friendly dan estetis.`,
-    image: "../../../public/assets/certificate/Certificate_Fundamental-Front-End-Web-Development-I_Muhammad-Fakhri-Alfi-Syahrin_page-0001.jpg",
+    image: "/assets/certificate/Certificate_Fundamental-Front-End-Web-Development-I_Muhammad-Fakhri-Alfi-Syahrin_page-0001.jpg",
     index: 1,
   },
   {
@@ -26,7 +26,7 @@ const certificationsData = [
     to: "https://drive.google.com/uc?export=download&id=1U8D7__Xok7QmX7BqaWFi-RcwRqdV7d7s",
     name: "FUNDAMENTAL FRONT-END WEB DEVELOPMENT II",
     description: `Di level lanjutan kursus ini, saya mendalami konsep lebih dalam seperti pengelolaan state dengan JavaScript dan integrasi API. Saya belajar tentang teknik-teknik modern dalam pengembangan web, termasuk penggunaan framework dan library untuk mempercepat proses pengembangan. Kursus ini memperkuat kemampuan saya dalam menciptakan aplikasi web yang kompleks dan dinamis.`,
-    image: "../../../public/assets/certificate/Certificate_Fundamental-Front-End-Web-Development-II_Muhammad-Fakhri-Alfi-Syahrin_page-0001.jpg",
+    image: "/assets/certificate/Certificate_Fundamental-Front-End-Web-Development-II_Muhammad-Fakhri-Alfi-Syahrin_page-0001.jpg",
     index: 2,
   },
   {
@@ -36,7 +36,7 @@ const certificationsData = [
     to: "https://drive.google.com/uc?export=download&id=1MZbGMPDjBnZu5K-5cV5g8oaOxZtRLQmX",
     name: "MAHIR MEMBUAT DB APLIKASI PROFESIONAL",
     description: `Kursus ini memperkenalkan saya pada konsep-konsep dasar dan lanjutan dalam desain dan pengelolaan database untuk aplikasi profesional. Saya belajar tentang struktur database, query SQL, dan teknik optimasi untuk memastikan performa yang optimal. Pengetahuan ini penting dalam membangun aplikasi yang terintegrasi dengan database yang efisien dan skalabel.`,
-    image: "../../../public/assets/certificate/Certificate_Mahir-Membuat-DB-Aplikasi-Profesional_Muhammad-Fakhri-Alfi-Syahrin_page-0001.jpg",
+    image: "/assets/certificate/Certificate_Mahir-Membuat-DB-Aplikasi-Profesional_Muhammad-Fakhri-Alfi-Syahrin_page-0001.jpg",
     index: 3,
   },
   {
@@ -46,7 +46,7 @@ const certificationsData = [
     to: "https://drive.google.com/uc?export=download&id=15ny9PFCjdXusvtjPjOfeVQOHKYBno5cH",
     name: "Kickstart Fullstack Web Development Journey",
     description: `Kursus ini memberikan panduan komprehensif tentang pengembangan web fullstack, mulai dari frontend hingga backend. Saya mempelajari penggunaan alat dan framework terkini untuk membangun aplikasi web yang lengkap, termasuk integrasi frontend dan backend. Kursus ini memperluas kemampuan saya dalam pengembangan web secara menyeluruh, dari desain antarmuka pengguna hingga pengelolaan server dan database.`,
-    image: "../../../public/assets/certificate/certificate-220841FULLSTACK_WEB_DEVELOPMENT172023_page-0001.jpg",
+    image: "/assets/certificate/certificate-220841FULLSTACK_WEB_DEVELOPMENT172023_page-0001.jpg",
     index: 4,
   },
 ];
