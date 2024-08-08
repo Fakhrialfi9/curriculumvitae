@@ -1,42 +1,34 @@
 const educationData = [
   {
-    year: "2016 - Until Now",
-    location: "Makassar, Sulawesi Selatan",
-    grade: "Sarjana (S1)",
+    year: "2016 - Present",
+    location: "Makassar, South Sulawesi",
+    grade: "Bachelor's Degree",
     name: "Universitas Fajar Makassar",
-    description: `Selama studi di Universitas Fajar, saya juga terlibat dalam berbagai kegiatan ekstrakurikuler, seminar, dan lokakarya yang relevan dengan bidang informatika. Hal ini membantu saya mengembangkan jaringan sosial dan meningkatkan keterampilan komunikasi serta kepemimpinan.
-
-    Pengalaman sebagai mahasiswa di Universitas Fajar telah membentuk karakter saya dan memberikan fondasi yang kuat untuk masa depan karier saya. Saya merasa percaya diri untuk menghadapi dunia kerja yang kompetitif karena pengetahuan dan keterampilan yang telah saya peroleh selama masa studi. Semangat belajar dan minat saya dalam teknologi informasi semakin berkembang, dan saya siap untuk berkontribusi dalam memajukan dunia informatika dengan inovasi dan dedikasi.`,
+    description: `At Universitas Fajar, I engaged in extracurricular activities, seminars, and workshops related to computer science. These experiences enhanced my communication and leadership skills, helping me build a solid foundation for my career. My studies have fueled my passion for information technology, preparing me to contribute innovatively to the field.`,
     index: 0,
   },
   {
     year: "2013 - 2015",
-    location: "Bekasi, Jawa Barat",
+    location: "Bekasi, West Java",
     grade: "High School Diploma",
     name: "SMA Negeri 14 Bekasi",
-    description: `Pengalaman saya telah membentuk siapa saya saat ini dan memberikan banyak kenangan yang berharga. SMA Negeri 14 Bekasi adalah tempat di mana saya melewati masa remaja dan mengalami berbagai peristiwa yang membentuk diri saya secara pribadi, akademis, dan sosial.
-
-    Di sekolah ini, saya bertemu dengan beragam teman sebaya dari latar belakang yang berbeda-beda. Interaksi dengan teman-teman baru ini membuka wawasan saya tentang keragaman budaya dan pandangan hidup. Bersama mereka, kami menghadapi tantangan akademis dan bersama-sama belajar untuk meraih prestasi yang lebih baik.`,
+    description: `My time at SMA Negeri 14 Bekasi was formative, providing valuable experiences and friendships. It broadened my cultural perspective and academic abilities, shaping my personal and social development through collaborative learning and shared challenges.`,
     index: 1,
   },
   {
     year: "2010 - 2013",
-    location: "Bekasi, Jawa Barat",
+    location: "Bekasi, West Java",
     grade: "Middle School Diploma",
     name: "SMP Islam Terpadu Widya Duta",
-    description: `Pengalaman saya di sekolah ini telah memberikan banyak kenangan yang berharga dan pelajaran berarti. SMP IT Widya Duta adalah tempat di mana saya menjalani masa remaja dan mengalami pertumbuhan secara akademis dan sosial.
-
-    Di sekolah ini, saya ditempa dengan pendidikan yang berfokus pada akademis dan nilai-nilai keagamaan. Guru-guru kami tidak hanya mengajar pelajaran akademis, tetapi juga memberikan pengajaran tentang moral, etika, dan nilai-nilai kebaikan dalam kehidupan sehari-hari. Ini membantu membentuk kepribadian dan karakter saya sebagai siswa yang bertanggung jawab dan memiliki rasa peduli terhadap sesama.`,
+    description: `At SMP IT Widya Duta, I received a well-rounded education focused on academics and ethical values. This period was crucial for developing my sense of responsibility and compassion, guided by teachers who instilled both knowledge and moral principles.`,
     index: 2,
   },
   {
     year: "2004 - 2009",
-    location: "Jakarta Timur, DKI Jakarta",
-    grade: "Junior School Diploma",
+    location: "East Jakarta, DKI Jakarta",
+    grade: "Elementary School Diploma",
     name: "SD Negeri 03 Jati Pulo Asem",
-    description: `Selama di SDN Jati 03 Pagi, saya terlibat dalam berbagai kegiatan sekolah, seperti acara perpisahan, upacara bendera, lomba, dan kegiatan sosial. Setiap momen tersebut memberikan pelajaran berharga tentang kerja sama, kepemimpinan, dan solidaritas. Semangat persaudaraan dengan teman sekelas membuat setiap hari di sekolah menjadi menyenangkan dan penuh semangat.
-
-    Selain pembelajaran di dalam kelas, lingkungan sekolah yang ramah dan menyenangkan juga memberikan ruang untuk mengembangkan bakat dan minat kami. Saya aktif dalam berbagai klub dan organisasi, seperti klub musik, olahraga, atau seni. Ini memberikan kesempatan untuk mengeksplorasi minat saya dan meningkatkan keterampilan dalam bidang yang saya gemari.`,
+    description: `My years at SDN Jati 03 Pagi were filled with engaging activities like events, ceremonies, and competitions. The supportive school environment fostered teamwork and leadership, while participation in various clubs allowed me to explore and develop my interests.`,
     index: 3,
   },
 ];
