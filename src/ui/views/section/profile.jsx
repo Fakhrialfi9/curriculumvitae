@@ -24,7 +24,7 @@ const Profile = () => {
 
           <div className={profileStyle.body}>
             <h5>About</h5>
-            <p>{profileData.about}</p>
+            <p style={{ whiteSpace: "pre-line" }}>{profileData.about}</p>
           </div>
         </div>
       </div>

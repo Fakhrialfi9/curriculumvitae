@@ -1,5 +1,26 @@
 const projectData = [
   {
+    year: "2024",
+    name: "Dashboard - Client B2B Kanggo",
+    description: `For the Dashboard - Client B2B Kanggo project, our development team utilized Vue.js 2. This dashboard serves as a bridge between Kanggo's clients and the internal teams (Business Support, Site Manager, and Consultant Survey). Through this platform, clients can create new projects that will be managed and executed by the Kanggo team.`,
+    image: "/assets/project/dashboard-client-b2b.png",
+    index: 0,
+  },
+  {
+    year: "2024",
+    name: "Dashboard - Shell B2B Kanggo",
+    description: `For the Dashboard - Shell B2B Kanggo project, our development team utilized Vue.js 2. This dashboard acts as a bridge for the team to communicate with the clients. The Dashboard - Shell B2B allows the team to monitor the status of projects, including new surveys, ongoing projects, and completed projects.`,
+    image: "/assets/project/dashboard-shell-b2b.png",
+    index: 0,
+  },
+  {
+    year: "2024",
+    name: "Dashboard - Admin Panel Kanggo",
+    description: `For the Dashboard - Admin Panel Kanggo project, this serves as the central hub for all system data, including data from the Worker Apps, B2B System, and Ticketing. The project was originally built using PHP (CI), and later revamped with React.js and Vite.js as the bundler.`,
+    image: "/assets/project/dashboard-admin-panel.png",
+    index: 0,
+  },
+  {
     year: "2023",
     name: "Website Project Grandia Liv",
     description: `I recently had the opportunity to design the website www.grandia-liv.id, aimed at promoting the Grandia Liv project through social media and online channels. The website features a user-friendly layout, making it easy for potential buyers to access key information about the project, including unit types, prices, location, and facilities.`,

@@ -1,5 +1,21 @@
 const experienceData = [
   {
+    year: "2024 - Curretly",
+    location: "Kota Tangerang Selatan, Banten",
+    title: "Frontend Web Developer",
+    name: "Kanggo",
+    description: `During my time at Kanggo, I managed two major B2B Dashboard projects: Dashboard B2B Client and Dashboard B2B Shell. New features were released almost every week to enhance the user experience. Some of the more complex features I successfully handled include:
+
+    1. Custom Features for Each Vendor/Client: Developing tailored functionalities to meet the specific needs of each vendor or client.
+
+    2. Consultant Assignment Feature: Building a system to assign consultants efficiently, either automatically or manually.
+
+    3. Two-Way Rating Feature (Client and Shell): Creating a dual rating system to maintain service quality and foster trust between users and Shell.
+    
+    This role significantly honed my skills in project management, feature development, and problem-solving in high-paced environments.`,
+    index: 0,
+  },
+  {
     year: "2024 - 2024",
     location: "Cibubur, Jawa Barat",
     title: "Web Developer & Graphic Designer",

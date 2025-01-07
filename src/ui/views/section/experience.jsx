@@ -24,7 +24,9 @@ const Experience = () => {
                     <h6>{experience.location}</h6>
                   </div>
                   <div className={experienceStyle.description}>
-                    <p dangerouslySetInnerHTML={{ __html: experience.description }} />
+                    <p style={{ whiteSpace: "pre-line" }} 
+                    dangerouslySetInnerHTML={{ __html: experience.description }} 
+                    />
                   </div>
                 </div>
               </div>
